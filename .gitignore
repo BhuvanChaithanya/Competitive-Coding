@@ -1,0 +1,54 @@
+# Build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.lib
+*.so
+*.a
+*.out
+*.bin
+build/
+bin/
+obj/
+
+# Debugging and profiling
+*.pdb
+*.ilk
+*.suo
+*.user
+*.ncb
+*.aps
+*.bsc
+*.map
+*.tds
+*.sym
+
+# IDE-specific files (e.g., Visual Studio, CMake, VS Code)
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.sln
+*.vcproj
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+_CPack_Packages/
+.vscode/
+
+# Temporary files
+*~
+*.bak
+*.swp
+*.tmp
+*.log
+*.gch
+
+# Operating System generated files
+.DS_Store
+Thumbs.db
+
+#cph
+.cph/
